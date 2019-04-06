@@ -1,0 +1,17 @@
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\BookLibraryApi.Tests.deps.json
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\BookLibraryApi.Tests.runtimeconfig.json
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\BookLibraryApi.Tests.runtimeconfig.dev.json
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\BookLibraryApi.Tests.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\BookLibraryApi.Tests.pdb
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\book-library.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\bin\Debug\netcoreapp2.2\book-library.pdb
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.csprojAssemblyReference.cache
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.csproj.CoreCompileInputs.cache
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.AssemblyInfoInputs.cache
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.AssemblyInfo.cs
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.csproj.CopyComplete
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.dll
+Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.pdb
