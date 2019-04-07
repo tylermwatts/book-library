@@ -4,29 +4,54 @@ using System.Linq;
 using System.Net;
 using System.Web.Http;
 using BookLibraryApi.Models;
+using BookLibraryApi.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookLibraryApi.Controllers {
   [Route ("api/[controller]")]
   public class BooksController : ControllerBase {
-    List<Book> books = new List<Book> {
-      new Book { Id = 1, Author = "Larson,Erik", Title = "Devil in the White City", Subcategory = Subcategory.True_Crime },
-      new Book { Id = 2, Author = "Phillips,Christopher", Title = "Socrates Cafe", Subcategory = Subcategory.Philosophy },
-      new Book { Id = 3, Author = "Obama,Michelle", Title = "Becoming", Subcategory = Subcategory.Biography }
-    };
+
+    private readonly BookRepository bookRepository = new BookRepository ();
+
     [HttpGet]
     public ActionResult<IEnumerable<Book>> Get () {
-      return books;
+      return Ok (bookRepository.GetAll ());
     }
 
     [HttpGet ("{id}")]
     public ActionResult<Book> Get (int id) {
-      var book = books.FirstOrDefault (b => b.Id == id);
+      var book = bookRepository.GetById (id);
       if (book == null) {
         return NotFound ();
       }
-      return book;
+      return Ok (book);
     }
 
+    [HttpPost]
+    public IActionResult Post ([FromBody] Book book) {
+      bookRepository.AddBook (book);
+      return Ok ();
+    }
+
+    [HttpDelete ("{id}")]
+    public IActionResult Delete (int id) {
+      var book = bookRepository.GetById (id);
+      if (book == null) {
+        return NotFound ();
+      }
+      bookRepository.DeleteBook (book);
+      return Ok ();
+    }
+
+    [HttpPut ("{id}")]
+    public IActionResult Put (int id, [FromBody] Book newBook) {
+      var book = bookRepository.GetById (id);
+      if (book == null) {
+        return NotFound ();
+      }
+      bookRepository.UpdateBook (book, newBook);
+      return Ok ();
+
+    }
   }
 }
