@@ -51,7 +51,6 @@ namespace BookLibraryApi.Controllers {
       }
       bookRepository.UpdateBook (book, newBook);
       return Ok ();
-
     }
   }
 }
