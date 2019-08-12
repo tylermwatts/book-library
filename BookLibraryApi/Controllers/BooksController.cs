@@ -28,7 +28,7 @@ namespace BookLibraryApi.Controllers {
     [HttpPost]
     public IActionResult Post ([FromBody] Book book) {
       bookRepository.AddBook (book);
-      return Ok ();
+      return Ok (book);
     }
 
     [HttpDelete ("{id}")]

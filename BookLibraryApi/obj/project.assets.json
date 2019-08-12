@@ -12079,11 +12079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\VS Code Projects\\book-library\\BookLibraryApi\\book-library.csproj",
+      "projectUniqueName": "Z:\\VS Code Projects\\book-library\\booklibraryapi\\book-library.csproj",
       "projectName": "book-library",
-      "projectPath": "Z:\\VS Code Projects\\book-library\\BookLibraryApi\\book-library.csproj",
+      "projectPath": "Z:\\VS Code Projects\\book-library\\booklibraryapi\\book-library.csproj",
       "packagesPath": "C:\\Users\\Tyler\\.nuget\\packages\\",
-      "outputPath": "Z:\\VS Code Projects\\book-library\\BookLibraryApi\\obj\\",
+      "outputPath": "Z:\\VS Code Projects\\book-library\\booklibraryapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12132,7 +12132,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true

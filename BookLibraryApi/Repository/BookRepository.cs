@@ -3,7 +3,7 @@ using BookLibraryApi.Models;
 
 namespace BookLibraryApi.Repository {
 	public class BookRepository : IBookRepository {
-		List<Book> books = new List<Book> {
+		static List<Book> books = new List<Book> {
 			new Book { Id = 1, Author = "Larson,Erik", Title = "Devil in the White City", Subcategory = Subcategory.True_Crime },
 			new Book { Id = 2, Author = "Phillips,Christopher", Title = "Socrates Cafe", Subcategory = Subcategory.Philosophy },
 			new Book { Id = 3, Author = "Obama,Michelle", Title = "Becoming", Subcategory = Subcategory.Biography },

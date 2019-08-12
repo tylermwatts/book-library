@@ -15,3 +15,6 @@ Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\Bo
 Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.csproj.CopyComplete
 Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.dll
 Z:\VS Code Projects\book-library\BookLibraryApi.Tests\obj\Debug\netcoreapp2.2\BookLibraryApi.Tests.pdb
+Z:\VS Code Projects\book-library\booklibraryapi.tests\bin\Debug\netcoreapp2.2\appsettings.Development.json
+Z:\VS Code Projects\book-library\booklibraryapi.tests\bin\Debug\netcoreapp2.2\appsettings.json
+Z:\VS Code Projects\book-library\booklibraryapi.tests\bin\Debug\netcoreapp2.2\Properties\launchSettings.json

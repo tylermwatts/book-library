@@ -26,3 +26,6 @@ Z:\VS Code Projects\book-library\BookLibraryApi\obj\Debug\netcoreapp2.2\book-lib
 Z:\VS Code Projects\book-library\BookLibraryApi\obj\Debug\netcoreapp2.2\book-library.RazorTargetAssemblyInfo.cache
 Z:\VS Code Projects\book-library\BookLibraryApi\obj\Debug\netcoreapp2.2\book-library.dll
 Z:\VS Code Projects\book-library\BookLibraryApi\obj\Debug\netcoreapp2.2\book-library.pdb
+Z:\VS Code Projects\book-library\booklibraryapi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+Z:\VS Code Projects\book-library\booklibraryapi\bin\Debug\netcoreapp2.2\appsettings.json
+Z:\VS Code Projects\book-library\booklibraryapi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
