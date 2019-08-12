@@ -1,9 +1,8 @@
 using System.Collections.Generic;
 using BookLibraryApi.Models;
-using Microsoft.AspNetCore.Mvc;
 
 namespace BookLibraryApi.Repository {
-	public class BookRepository {
+	public class BookRepository : IBookRepository {
 		List<Book> books = new List<Book> {
 			new Book { Id = 1, Author = "Larson,Erik", Title = "Devil in the White City", Subcategory = Subcategory.True_Crime },
 			new Book { Id = 2, Author = "Phillips,Christopher", Title = "Socrates Cafe", Subcategory = Subcategory.Philosophy },

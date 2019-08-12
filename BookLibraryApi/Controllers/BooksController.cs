@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Web.Http;
 using BookLibraryApi.Models;
 using BookLibraryApi.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -10,8 +6,10 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookLibraryApi.Controllers {
   [Route ("api/[controller]")]
   public class BooksController : ControllerBase {
-
-    private readonly BookRepository bookRepository = new BookRepository ();
+    private readonly IBookRepository bookRepository;
+    public BooksController (IBookRepository bookRepository) {
+      this.bookRepository = bookRepository;
+    }
 
     [HttpGet]
     public ActionResult<IEnumerable<Book>> Get () {
